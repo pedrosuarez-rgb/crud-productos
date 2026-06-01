@@ -20,7 +20,7 @@
     <h1>Productos</h1>
     <nav>
         <ul>
-            <li><a href="{{ route('productos.index') }}">Productos</a></li>
+            <li><a href="{{ url('/productos') }}">Productos</a></li>
             <li><a href="#">Categorías</a></li>
         </ul>
     </nav>
